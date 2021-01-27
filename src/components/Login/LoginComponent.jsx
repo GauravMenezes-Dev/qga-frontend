@@ -4,7 +4,7 @@ import {login} from '../../api/user';
 
 const LoginComponent = () => {
     
-    const [setUser] = useContext(UserContext);
+    const [user, setUser] = useContext(UserContext);
     const [msg, setMsg] = useState("");
     const [userInput, setUserInput] = useState("");
     const [passInput, setPassInput] = useState("");
