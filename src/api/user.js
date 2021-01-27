@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "http://localhost:8080/api/user";
+const URL = "https://java-app-qga.herokuapp.com/api/user";
 
 export const login = async (username, password) => {
     

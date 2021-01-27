@@ -1,6 +1,6 @@
 import axios from "axios"
 
-let questionMapping = "http://localhost:8080/api/questions"
+let questionMapping = "https://java-app-qga.herokuapp.com//api/questions"
 
 export const getAllQuestions = async () => {
     const data = await axios.get(`${questionMapping}/getAllQuestions`);
